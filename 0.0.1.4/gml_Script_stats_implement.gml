@@ -1,0 +1,6 @@
+my_SetHealth = (((2 * skilllevel) + my_BodyHealth) * stat_Health)
+my_Damage = (my_BodyDamage * stat_Attack)
+my_Resist = max(0, (1 - power(0.8, ((stat_Attack - 1) + ((stat_Health - 1) / 10)))))
+my_SetShield = ((my_BodyHealth / 2) * stat_Shield)
+my_ShieldRegen = max(0, stat_Regeneration)
+entity_initalize()
