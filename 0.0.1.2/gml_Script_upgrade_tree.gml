@@ -5,7 +5,7 @@ switch argument0
     case "pounder":
         return array(2, "destroy", "artillery");
     case "destroy":
-        return array(3, "anni", "hotshot", "destroygun", "wubdub");
+        return array(3, "anni", "hotshot", "destroygun", "deathstar");
     case "artillery":
         return array(3, "spread", "mortar");
     case "twin":
